@@ -1,0 +1,18 @@
+{
+  "name": "frpjstore-backend",
+  "version": "1.0.0",
+  "description": "Backend FRPJSTORE.BR",
+  "main": "api/index.js",
+  "scripts": {
+    "start": "node api/index.js",
+    "dev": "nodemon api/index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "googleapis": "^128.0.0",
+    "mercadopago": "^2.0.6"
+  },
+  "engines": { "node": ">=18.0.0" }
+}
